@@ -6,6 +6,7 @@ import Loop from "./loopInside";
 import LevelChild from "./levelChild";
 import CheckBox from "./checkboxAndUncheckbox";
 import DongThoai from "./lyricDongThoai";
+import Router from "./components/Router";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -20,6 +21,7 @@ root.render(
     <br />
     <CheckBox /> */}
     <br />
-    <DongThoai />
+    {/* <DongThoai /> */}
+    <Router />
   </StrictMode>
 );
