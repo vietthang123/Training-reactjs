@@ -8,12 +8,12 @@ const Navigation = () => {
       <ul>
         <li>
           <div className="sidebar_item">
-            <Link to={"/"}>List All Posts</Link>
+            <Link to={"/"}>List All Blogs</Link>
           </div>
         </li>
         <li>
           <div className="sidebar_item">
-            <Link to={"/create"}>Add New Post</Link>
+            <Link to={"/create"}>Add New Blog</Link>
           </div>
         </li>
       </ul>

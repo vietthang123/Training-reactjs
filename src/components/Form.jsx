@@ -10,7 +10,7 @@ class Form extends Component {
   updated_atRef = React.createRef();
   comments_countRef = React.createRef();
 
-  createPost = (e) => {
+  createBlog = (e) => {
     e.preventDefault();
 
     const post = {

@@ -6,7 +6,7 @@ import Divider from "@material-ui/core/Divider";
 
 class Blog extends Component {
   render() {
-    const {
+    const{
       id,
       title,
       content,
@@ -15,6 +15,8 @@ class Blog extends Component {
       updated_at,
       comments_count
     } = this.props.info;
+
+    console.log(this.props.info);
 
     return (
       <Paper className="blog">
@@ -26,14 +28,14 @@ class Blog extends Component {
         <p className="blog_title" cols="10">
           <b>
             <span className="blog-preview">
-              {title.length > 25 ? `${title.substr(0, 25)}...` : title}
+              {title}
             </span>
           </b>
         </p>
         <Divider light />
         <p className="blog_body">
           <span className="blog-preview">
-            {content.length > 300 ? `${content.substr(0, 300)}...` : content}
+            {content}
           </span>
         </p>
         <Divider light />
